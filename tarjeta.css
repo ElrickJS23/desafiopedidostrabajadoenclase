@@ -1,0 +1,40 @@
+body {
+  background-image: url(https://www.kate-carney.co.uk/wp-content/uploads/2019/07/menu-header.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: rgb(20, 197, 176);
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: rgb(18, 173, 181);
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  h2{
+    color: chocolate;
+    border-style: dotted;
+    border-color: darkorange;
+    background-color: bisque;
+  }
